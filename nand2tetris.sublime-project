@@ -1,0 +1,9 @@
+{
+    "folders":
+    [
+        {
+            "path": "projects",
+            "file_include_patterns" : ["*.hdl"]
+        }
+    ],
+}
