@@ -1,1 +1,1082 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tflite_osal",
+				"tflite_osal.h\t(model.cc)"
+			],
+			[
+				"tflite_osa",
+				"tflite_osal.h\t(allocation.cc)"
+			],
+			[
+				"tflite",
+				"tflite_osal.h\t(tflite_osal.cc)"
+			],
+			[
+				"TEST",
+				"TEST_NAME"
+			],
+			[
+				"end",
+				"endfunction\tcommand"
+			],
+			[
+				"RE",
+				"RELATIVE"
+			],
+			[
+				"TFLITE_TEST",
+				"TFLITE_TEST_NAME"
+			],
+			[
+				"tensro",
+				"tensorflow-lite"
+			],
+			[
+				"nnapi",
+				"nnapi_delegate.h\t(interpreter.cc)"
+			],
+			[
+				"TENSO",
+				"TENSORFLOW_LITE_ROOT_DIR"
+			],
+			[
+				"load_dy",
+				"load_dynamic_symbol\t(tflite_osal.h)"
+			],
+			[
+				"load_dyn",
+				"load_dynamic_library\t(tflite_osal.h)"
+			],
+			[
+				"file_ha",
+				"file_handle_"
+			],
+			[
+				"file_hand",
+				"file_handle_mapping_"
+			],
+			[
+				"mmape",
+				"mmapped_buffer_"
+			],
+			[
+				"null",
+				"nullptr"
+			],
+			[
+				"libar",
+				"library_handle"
+			],
+			[
+				"librar",
+				"library_handle"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"tenso",
+				"tensorflow-lite"
+			],
+			[
+				"target_",
+				"target_link_libraries\tcommand"
+			],
+			[
+				"add_",
+				"add_executable\tcommand"
+			],
+			[
+				"TEN",
+				"TENSORFLOW_LITE_KERNEL_SOURCES"
+			],
+			[
+				"TE",
+				"TENSORFLOW_LITE_KERNEL_SOURCES"
+			],
+			[
+				"ten",
+				"tensorflow\t(allocation.cc)"
+			],
+			[
+				"down",
+				"downloads\t(CMakeLists.txt)"
+			],
+			[
+				"tensor",
+				"tensorflow"
+			],
+			[
+				"string",
+				"string_util.h\t(string_util.cc)"
+			],
+			[
+				"inter",
+				"interpreter\t(CMakeLists.txt)"
+			],
+			[
+				"error",
+				"error_reporter\t(allocation.cc)"
+			],
+			[
+				"bat",
+				"batch_labels"
+			],
+			[
+				"batch",
+				"batch_labels"
+			],
+			[
+				"batc",
+				"batch_size"
+			],
+			[
+				"log",
+				"log_melspectrogram"
+			],
+			[
+				"mfcc",
+				"mfcc_shape"
+			],
+			[
+				"f",
+				"float32"
+			],
+			[
+				"load",
+				"_load_sample\tfunction"
+			],
+			[
+				"prep",
+				"preprocessed_data"
+			],
+			[
+				"n",
+				"newaxis"
+			],
+			[
+				"n_m",
+				"n_mfcc\tparam"
+			],
+			[
+				"num_files",
+				"num_files_to_move"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"somet",
+				"somethings"
+			],
+			[
+				"get",
+				"get_next"
+			],
+			[
+				"inclu",
+				"include_directories\tcommand"
+			],
+			[
+				"new",
+				"new_block"
+			],
+			[
+				"fe",
+				"free_block_header"
+			],
+			[
+				"set_",
+				"set_prev"
+			],
+			[
+				"get_",
+				"get_prev"
+			],
+			[
+				"prev",
+				"prev_it"
+			],
+			[
+				"set",
+				"set_prev"
+			],
+			[
+				"free",
+				"free_block_header"
+			],
+			[
+				"som",
+				"somethings"
+			],
+			[
+				"next",
+				"next_block"
+			],
+			[
+				"next_",
+				"next_block"
+			],
+			[
+				"deall",
+				"deallocate"
+			],
+			[
+				"ALIG",
+				"ALIGNED_HEADER_SIZE"
+			],
+			[
+				"all",
+				"allocated"
+			],
+			[
+				"reqest",
+				"requested_size"
+			],
+			[
+				"statc",
+				"static_memory_pool.h\t(global_memory_allocation.cpp)"
+			],
+			[
+				"is",
+				"is_inside_pool"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "projects/03/a/Bit.hdl",
+			"settings":
+			{
+				"buffer_size": 447,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// This file is part of www.nand2tetris.org\n// and the book \"The Elements of Computing Systems\"\n// by Nisan and Schocken, MIT Press.\n// File name: projects/03/a/PC.hdl\n\n/**\n * A 16-bit counter with load and reset control bits.\n * if      (reset[t] == 1) out[t+1] = 0\n * else if (load[t] == 1)  out[t+1] = in[t]\n * else if (inc[t] == 1)   out[t+1] = out[t] + 1  (integer addition)\n * else                    out[t+1] = out[t]\n */\n\nCHIP PC {\n    IN in[16],load,inc,reset;\n    OUT out[16];\n\n    PARTS:\n    \n}\n",
+			"file": "projects/03/a/PC.hdl",
+			"file_size": 548,
+			"file_write_time": 131696715044924531,
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/01/Mux16.hdl",
+			"settings":
+			{
+				"buffer_size": 1130,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/01/Mux.hdl",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/01/Mux4Way16.hdl",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/01/DMux.hdl",
+			"settings":
+			{
+				"buffer_size": 406,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "close",
+		"selected_items":
+		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"range",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"close a",
+				"File: Close All"
+			],
+			[
+				"c++",
+				"Set Syntax: C++11"
+			],
+			[
+				"hex",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"clo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"cmake",
+				"Set Syntax: CMake"
+			],
+			[
+				"lint",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"lintin",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"pascal",
+				"Convert Case: PascalCase"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sapces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"prefer",
+				"Preferences: Settings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"clang",
+				"EasyClangComplete: Settings"
+			],
+			[
+				"cmk",
+				"Set Syntax: CMake"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"eas",
+				"EasyClangComplete: Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"eval",
+				"Evaluate: Evaluate Selections"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"line",
+				"Line Endings Unify"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Development/nand2tetris/projects",
+		"/C/Development/nand2tetris/projects/01",
+		"/C/Development/nand2tetris/projects/02",
+		"/C/Development/nand2tetris/projects/03",
+		"/C/Development/nand2tetris/projects/03/a",
+		"/C/Development/nand2tetris/projects/03/b"
+	],
+	"file_history":
+	[
+		"/C/Development/nand2tetris/nand2tetris.sublime-project",
+		"/C/Development/nand2tetris/projects/01/Or8Way.hdl",
+		"/C/Development/nand2tetris/projects/02/Add16.hdl",
+		"/C/Development/nand2tetris/projects/01/And16.hdl",
+		"/C/Development/nand2tetris/projects/01/Mux16.hdl",
+		"/C/Development/nand2tetris/projects/02/ALU.hdl",
+		"/C/Development/nand2tetris/.gitignore",
+		"/C/Development/nand2tetris/projects/01/Or.hdl",
+		"/C/Users/shaur/AppData/Local/Continuum/Anaconda3/Lib/site-packages/tensorflow/contrib/quantize/python/__init__.py",
+		"/C/Users/shaur/AppData/Local/Continuum/Anaconda3/Lib/site-packages/tensorflow/contrib/quantize/python/quantize_graph.py",
+		"/C/Development/gemmlowp/doc/quantization_example.cc",
+		"/C/temp/tmp.dat",
+		"/C/Users/shaur/source/repos/Project1/Project1/main.cpp",
+		"/C/Development/learning-area/html/introduction-to-html/document_and_website_structure/style.css",
+		"/C/Development/learning-area/html/introduction-to-html/debugging-html/debug-example.html",
+		"/C/Development/learning-area/html/introduction-to-html/getting-started/myindex.html",
+		"/C/Development/learning-area/html/introduction-to-html/the-html-head/meta-example.html",
+		"/C/Development/learning-area/html/introduction-to-html/navigation-menu-start/index.html",
+		"/C/Development/learning-area/html/introduction-to-html/navigation-menu-marked-up/pictures.html",
+		"/C/Development/learning-area/html/introduction-to-html/navigation-menu-start/projects.html",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/tflite_osal.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/allocation.h",
+		"/C/Development/csapp/datalab-handout/btest.c",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/model.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/allocation.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/cmake/tf_core_framework.cmake",
+		"/C/Users/shaur/Documents/Dokumenter/Personalia/CV/Shaurya_Resume_.tex",
+		"/C/Development/website/test-site/index.html",
+		"/C/Development/tensorflow/tensorflow/contrib/cmake/tf_cc_ops.cmake",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/kernels/internal/optimized/neon_tensor_utils.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/BUILD",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/nnapi_delegate.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/tflite_osal.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/interpreter_test.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/error_reporter.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/error_reporter.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/model_test.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/download_dependencies.sh",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/kernels/conv.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/CMakeLists.txt",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/testapp/testapp.cc",
+		"/C/Development/tensorflow/TFLiteSolution/CMakeCache.txt",
+		"/C/Development/tensorflow/TFLiteSolution/cmake_install.cmake",
+		"/C/Development/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt",
+		"/C/Users/shaur/Desktop/onskeliste",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/googletest/googletest/include/gtest/gtest.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/java/src/main/native/tensorflow_lite_jni.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/java/src/main/native/tensor_jni.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/java/src/main/native/builtin_ops_jni.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/java/src/main/native/nativeinterpreterwrapper_jni.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/kernels/lsh_projection.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/models/smartreply/demo/app/src/main/smartreply_jni.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/farmhash/dev/farmhash.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/farmhash/src/farmhash.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/interpreter.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/context.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/interpreter.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/nnapi/NeuralNetworksShim.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/nnapi_delegate.h",
+		"/C/temp/model.pb",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/simple_memory_arena.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/gemmlowp/fixedpoint/fixedpoint.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/gemmlowp/internal/common.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/gemmlowp/test/test.cc",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/string_util.h",
+		"/C/Development/tensorflow/tensorflow/contrib/cmake/README.md",
+		"/C/Development/tensorflow/tensorflow/contrib/cmake/tf_c.cmake",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/kernels/internal/common.h",
+		"/C/Development/tensorflow/tensorflow/contrib/lite/downloads/gemmlowp/internal/platform.h",
+		"/C/Development/kaggle/tensorflow-speech-recognition-challenge/Classifier.py",
+		"/C/Development/kaggle/tensorflow-speech-recognition-challenge/WavDataLoader.py",
+		"/C/Development/kaggle/tensorflow-speech-recognition-challenge/tools.py",
+		"/C/Development/kaggle/tensorflow-speech-recognition-challenge/WavDataGenerator.py",
+		"/C/Development/kaggle/tensorflow-speech-recognition-challenge/WavDataGeneratorV2.py",
+		"/C/Development/kaggle/.gitignore",
+		"/C/Development/kaggle/tensorflow-speech-recognition-challenge/ThreadSafeGenerator.py",
+		"/C/Users/shaur/Downloads/Untitled.py",
+		"/C/Users/shaur/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/shaur/Downloads/War.And.Peace.2016.S01.720p.BluRay.x264-SHORTBREHD[rartv]/Subs/War.And.Peace.2016.S01E01.720p.BluRay.x264-SHORTBREHD.sub",
+		"/C/Users/shaur/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/shaur/Downloads/sys161.conf",
+		"/C/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/",
+		"/C/Development/allocator/.gitignore",
+		"/C/Development/allocator/main.cpp",
+		"/C/Development/allocator/global_memory_allocation.cpp",
+		"/C/Development/allocator/tests.cpp",
+		"/C/Development/allocator/CMakeLists.txt",
+		"/C/Development/allocator/static_memory_pool.h",
+		"/C/Development/Pluralsight/frontend-development/1-front-end-web-app-html5-javascript-css-exercise-files/after/index.html",
+		"/C/Program Files/Sublime Text 3/",
+		"/C/Users/shaur/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/shaur/Downloads/Sublime/Sublime/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"out[",
+			"in",
+			"c",
+			"c1",
+			"_",
+			"out=out",
+			"x",
+			"li"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "projects/03/a/Bit.hdl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "projects/03/a/PC.hdl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "projects/01/Mux16.hdl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "projects/01/Mux.hdl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "projects/01/Mux4Way16.hdl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "projects/01/DMux.hdl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "nand2tetris.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mux4",
+				"01\\Mux4Way16.hdl"
+			],
+			[
+				"dmux",
+				"01\\DMux.hdl"
+			],
+			[
+				"mux",
+				"01\\Mux.hdl"
+			],
+			[
+				"add",
+				"02\\Add16.hdl"
+			],
+			[
+				"and16",
+				"01\\And16.hdl"
+			],
+			[
+				"alu",
+				"02\\ALU.hdl"
+			],
+			[
+				"debugde",
+				"html\\introduction-to-html\\debugging-html\\debug-example.html"
+			],
+			[
+				"pictures",
+				"html\\introduction-to-html\\navigation-menu-marked-up\\pictures.html"
+			],
+			[
+				"cmak",
+				"CMakeLists.txt"
+			],
+			[
+				"conv.cc",
+				"kernels\\conv.cc"
+			],
+			[
+				"downl",
+				"download_dependencies.sh"
+			],
+			[
+				"cma",
+				"CMakeLists.txt"
+			],
+			[
+				"modeltest",
+				"model_test.cc"
+			],
+			[
+				"nn",
+				"nnapi_delegate.cc"
+			],
+			[
+				"tflite",
+				"tflite_osal.h"
+			],
+			[
+				"cmaek",
+				"CMakeLists.txt"
+			],
+			[
+				"nnapid",
+				"nnapi_delegate.cc"
+			],
+			[
+				"tflit",
+				"tflite_osal.cc"
+			],
+			[
+				"neontens",
+				"kernels\\internal\\optimized\\neon_tensor_utils.cc"
+			],
+			[
+				"interpre",
+				"interpreter_test.cc"
+			],
+			[
+				"error",
+				"error_reporter.h"
+			],
+			[
+				"cmakelists",
+				"CMakeLists.txt"
+			],
+			[
+				"conv",
+				"kernels\\conv.cc"
+			],
+			[
+				"model.cc",
+				"model.cc"
+			],
+			[
+				"testapp",
+				"testapp\\testapp.cc"
+			],
+			[
+				"nnapi",
+				"nnapi_delegate.cc"
+			],
+			[
+				"allo",
+				"allocation.cc"
+			],
+			[
+				"cmake",
+				"CMakeLists.txt"
+			],
+			[
+				"interp",
+				"interpreter.cc"
+			],
+			[
+				"model",
+				"model.cc"
+			],
+			[
+				"shim",
+				"nnapi\\NeuralNetworksShim.h"
+			],
+			[
+				"nnapidle",
+				"nnapi_delegate.h"
+			],
+			[
+				"nnapidlee",
+				"nnapi_delegate.cc"
+			],
+			[
+				"far",
+				"downloads\\farmhash\\dev\\farmhash.h"
+			],
+			[
+				"lsh",
+				"kernels\\lsh_projection.cc"
+			],
+			[
+				"nnapidele",
+				"nnapi_delegate.h"
+			],
+			[
+				"allocatoin",
+				"allocation.cc"
+			],
+			[
+				"cmaklists",
+				"CMakeLists.txt"
+			],
+			[
+				"interpreter",
+				"interpreter.cc"
+			],
+			[
+				"common",
+				"kernels\\internal\\common.h"
+			],
+			[
+				"fixedpoi",
+				"downloads\\gemmlowp\\fixedpoint\\fixedpoint.h"
+			],
+			[
+				"download",
+				"download_dependencies.sh"
+			],
+			[
+				"wavdata",
+				"tensorflow-speech-recognition-challenge\\WavDataLoader.py"
+			],
+			[
+				"tests",
+				"tests.cpp"
+			],
+			[
+				"static",
+				"static_memory_pool.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 40.0,
+		"last_filter": "buildfrom",
+		"selected_items":
+		[
+			[
+				"buildfrom",
+				"BuildFromFile"
+			]
+		],
+		"width": 1260.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
